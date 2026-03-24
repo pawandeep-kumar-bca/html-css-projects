@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Domine:wght@400..700&family=Flow+Circular&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tapestry&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  min-height: 100%;
+  background-color: #f9e5bf;
+  display: flex;
+  padding: 1.2rem;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-family: "Anton", sans-serif;
+    margin-top: 11rem;
+    color: #29313e;
+    font-size: 4.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+  }
+
+  .list {
+    width: 48%;
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+    font-family: "Inter", sans-serif;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      text-transform: capitalize;
+
+      li {
+        list-style: none;
+        font-size: 1.2rem;
+        a {
+          font-weight: 500;
+          text-decoration: none;
+          color: #29313e;
+          opacity: 0.8;
+          transition: all 0.4s;
+          &:hover {
+            color: #e25e03;
+          }
+        }
+
+        &:nth-child(1) {
+          a {
+            color: #e25e03;
+          }
+        }
+      }
+    }
+  }
+
+  .menu_card {
+    width: 100%;
+    display: flex;
+    row-gap: 5rem;
+    column-gap: 2.3rem;
+    flex-wrap: wrap;
+    padding-top: 2.5rem;
+
+    .card {
+      cursor: pointer;
+      border-radius: 10px;
+      width: 23%;
+      height: 25rem;
+      position: relative;
+      background-color: #fff;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem 2rem;
+      transition: all 0.4s;
+      img {
+        width: 50%;
+        transition: all 0.6s;
+        min-height: 150px; // Fix the image height
+        object-fit: contain;
+      }
+      h2 {
+        font-family: "Anton", sans-serif;
+        padding-top: 1rem;
+        color: #29313e;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        font-weight: 400;
+      }
+      .star {
+        padding-top: 1.1rem;
+        i {
+          color: #ff9900;
+        }
+      }
+      h3 {
+        padding-top: 1.1rem;
+        font-size: 1.4rem;
+        color: #e25b00;
+        font-weight: 100;
+        font-family: "Anton", sans-serif;
+      }
+
+      &:hover {
+        background-color: #ffcc40;
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+
+  
+}
