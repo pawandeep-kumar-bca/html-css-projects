@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Domine:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #525050;
+
+  h1 {
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  i {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+  }
+}
+
+.container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+
+  .left {
+    width: 50%;
+    color: #fff;
+    padding-left: 2rem;
+    .button_1 {
+      display: flex;
+      border: 1px solid #dea42ea6;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5rem;
+      font-weight: 400;
+      color: #fff;
+      cursor: pointer;
+      .cir {
+        text-align: center;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: #ffaa01;
+        margin-right: 0.3rem;
+      }
+    }
+
+    h1 {
+      padding-top: 1.8rem;
+      text-transform: uppercase;
+      font-size: 4.5rem;
+      font-weight: 200;
+      span {
+        font-weight: 900;
+      }
+    }
+
+    h2 {
+      font-size: 3rem;
+      font-weight: 200;
+      padding-top: 1.8rem;
+      padding-bottom: 1.8rem;
+    }
+    p {
+      font-size: 2.3rem;
+      font-weight: 200;
+    }
+
+    .button_2 {
+      cursor: pointer;
+      display: flex;
+      border: 2px solid #ffaa01;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5rem;
+      justify-content: center;
+      align-items: center;
+      font-weight: 500;
+      color: #ffaa01;
+      font-size: 1rem;
+      text-transform: uppercase;
+      margin-top: 1.8rem;
+
+      i {
+        font-size: 1.3rem;
+        background-color: #ffaa01;
+        border-radius: 50%;
+        color: #fff;
+        margin-left: 0.4rem;
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+
+    .cir_1{
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        top: 0%;
+        left: 37%;
+    }
+    .cir_2{
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        top: 20%;
+        left: 25%;
+    }
+    .cir_3{
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        bottom: 20%;
+        left: 25%;
+    }
+    .cir_4{
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        bottom: 3%;
+        left: 33%;
+    }
+    .cir_5{
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        bottom: 30%;
+        right: 20%;
+    }
+    .cir_6{
+        position: absolute;
+        width: 1.5rem;
+        height: 1.5rem;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        bottom: 50%;
+        right: 12%;
+    }
+    .circle_1 {
+      width: 35rem;
+      height: 35rem;
+      border: 1px solid #dea42ea6;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .circle_2 {
+        width: 30rem;
+        height: 30rem;
+        border: 1px solid #dea42ea6;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 25rem;
+          height: 25rem;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
