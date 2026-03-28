@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8795f;
+}
+.container .inbox {
+  width: 60%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.container .inbox .box {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  gap: 1rem;
+}
+.container .inbox .box .img {
+  position: relative;
+}
+.container .inbox .box .img img {
+  width: 3rem;
+  position: absolute;
+  opacity: 0.1;
+}
+.container .inbox .box .img #a {
+  width: 2.5rem;
+  top: 25%;
+  left: 25%;
+  transform: rotate(140deg);
+}
+.container .inbox .box .img #b {
+  width: 2.5rem;
+  top: 25%;
+  right: 25%;
+  transform: rotate(220deg);
+}
+.container .inbox .box .img #c {
+  width: 2.5rem;
+  bottom: 25%;
+  left: 25%;
+  transform: rotate(40deg);
+}
+.container .inbox .box .img #d {
+  width: 2.5rem;
+  right: 25%;
+  bottom: 25%;
+  transform: rotate(-40deg);
+}
+.container .inbox .box .img #e {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  rotate: 20deg;
+}
+.container .inbox .box .img #f {
+  top: 45%;
+  left: 7%;
+  transform: rotate(90deg);
+}
+.container .inbox .box .img #g {
+  top: 45%;
+  right: 7%;
+  transform: rotate(-90deg);
+}
+.container .inbox .box .img #h {
+  top: 8%;
+  right: 43%;
+  transform: rotate(-180deg);
+}
+.container .inbox .box .img #i {
+  bottom: 8%;
+  right: 43%;
+}
+.container .inbox .box .left {
+  width: 35%;
+  height: 100%;
+}
+.container .inbox .box .middel {
+  width: 30%;
+  height: 100%;
+}
+.container .inbox .box .middel img {
+  width: 100%;
+  height: 97%;
+}
+.container .inbox .box .right {
+  width: 35%;
+  height: 100%;
+}
+.container .inbox h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+.container .inbox h2 {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  opacity: 0.7;
+}
+.container .inbox .btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+.container .inbox .btn .btn1 {
+  display: flex;
+  align-items: center;
+  background-color: #ebebeb;
+  padding: 0.6rem;
+  border-radius: 2rem;
+}
+.container .inbox .btn .btn1 input {
+  border: none;
+  outline: none;
+  padding: 0.6rem;
+  font-size: 1.3rem;
+  background-color: transparent;
+}
+.container .inbox .btn .btn1 i {
+  padding-left: 0.4rem;
+  font-size: 1.8rem;
+  opacity: 0.4;
+}
+.container .inbox .btn button {
+  background: linear-gradient(#fc3c52, #f57d5d);
+  margin-left: 1rem;
+  border-radius: 2rem;
+  padding: 0.4rem 2.5rem;
+  border: none;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
