@@ -1,0 +1,39 @@
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+ 
+ 
+html,body{
+width: 100%;
+height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .tooltip{
+        position: relative;
+        width: 10%;
+        text-align: center;
+        p{
+            position: absolute;
+            top: -50%;
+            left: 40%;
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.2s;
+            z-index: 1;
+            color: #000;
+        }
+        &:hover p{
+               visibility: visible;
+                opacity: 1;
+            
+        }
+    }
+}
