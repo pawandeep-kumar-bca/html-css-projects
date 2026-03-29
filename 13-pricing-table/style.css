@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#advanced {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to left bottom, rgb(192, 40, 219), rgb(76, 22, 194));
+}
+
+#advanced_1 {
+  background: linear-gradient(to left bottom, rgb(76, 22, 194), rgb(192, 40, 219));
+}
+
+#premium {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to left bottom, rgb(251, 194, 86), rgb(239, 78, 93));
+}
+
+#premium_1 {
+  background: linear-gradient(to left bottom, rgb(239, 78, 93), rgb(251, 194, 86));
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(89, 193, 218);
+  width: 100%;
+  height: 100%;
+}
+.container .basic {
+  position: relative;
+  width: 18%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .basic .button_1 {
+  width: 11rem;
+  position: absolute;
+  padding: 0.5rem 3rem 1.5rem;
+  text-transform: uppercase;
+  top: -8%;
+  color: #fff;
+  border: none;
+  border-radius: 1.5rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+  background: linear-gradient(to left bottom, rgb(19, 207, 139), rgb(1, 118, 180));
+}
+.container .basic .plans {
+  width: 15rem;
+  height: 20rem;
+  background-color: rgba(241, 241, 241, 0.658);
+  padding: 1rem;
+  filter: blur(0.2px);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 1rem;
+}
+.container .basic .plans h1 {
+  font-size: 3rem;
+}
+.container .basic .plans h4 {
+  padding-top: -1rem;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+.container .basic .plans .p {
+  width: 90%;
+  padding: 0.3rem 0.5rem;
+  font-weight: 600;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  opacity: 0.9;
+}
+.container .basic .plans .para {
+  padding: 0.3rem 0.5rem;
+  width: 90%;
+  font-weight: 600;
+  opacity: 0.9;
+}
+.container .basic .button_2 {
+  width: 11rem;
+  position: absolute;
+  padding: 1.5rem 3rem 0.5rem;
+  bottom: 18%;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 1.5rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+  background: linear-gradient(to left bottom, rgb(1, 118, 180), rgb(19, 207, 139));
+  cursor: pointer;
+}
