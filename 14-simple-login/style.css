@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .register {
+  text-align: center;
+  width: 25%;
+  border-radius: 7px;
+  height: 35rem;
+  padding: 2rem 1.3rem;
+  color: #fff;
+  background-color: #121212;
+}
+.container .register h1 {
+  padding-bottom: 1.5rem;
+}
+.container .register form {
+  display: flex;
+  flex-direction: column;
+}
+.container .register form input {
+  outline: none;
+  border: 2px solid #ae7dea;
+  background: transparent;
+  border-radius: 6px;
+  padding: 0.5rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.container .register form input::-moz-placeholder {
+  color: #fff;
+  opacity: 0.8;
+  font-weight: 300;
+}
+.container .register form input::placeholder {
+  color: #fff;
+  opacity: 0.8;
+  font-weight: 300;
+}
+.container .register form button {
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.container .register form .btn_1 {
+  margin-top: 2rem;
+  background-color: #6200ee;
+}
+.container .register form .btn_2 {
+  background-color: #3700b3;
+}
+.container .register form .btn_2 a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 0.2rem;
+}
+.container .login {
+  text-align: center;
+  width: 25%;
+  border-radius: 7px;
+  height: 18rem;
+  padding: 1.7rem 1.3rem;
+  color: #fff;
+  background-color: #121212;
+}
+.container .login h1 {
+  padding-bottom: 1rem;
+}
+.container .login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .login form input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #ae7dea;
+  background: transparent;
+  border-radius: 6px;
+  padding: 0.5rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+.container .login form input::-moz-placeholder {
+  color: #fff;
+  opacity: 0.8;
+  font-weight: 300;
+}
+.container .login form input::placeholder {
+  color: #fff;
+  opacity: 0.8;
+  font-weight: 300;
+}
+.container .login form button {
+  width: 40%;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #bb86fc;
+}
