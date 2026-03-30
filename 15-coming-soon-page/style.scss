@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Domine:wght@400..700&family=Flow+Circular&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=National+Park:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tapestry&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "National Park", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  .coming_soon {
+    color: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+    width: 40%;
+    height: 45.6rem;
+    background-color: #111;
+
+    .cir {
+      width: 2rem;
+      height: 2rem;
+      background-color: #111;
+      border: 3px solid aliceblue;
+      border-radius: 50%;
+      margin: 3rem 0 1rem;
+    }
+    .h1 {
+      font-size: 3rem;
+      padding: 1.5rem;
+      text-transform: uppercase;
+    }
+    .p {
+      font-size: 1.3rem;
+      text-align: center;
+      opacity: 0.8;
+      font-weight: 100;
+    }
+    .timer {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      gap: 3rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+
+      .day {
+        p {
+          text-transform: uppercase;
+          padding: 0.5rem;
+          opacity: 0.8;
+          font-weight: 100;
+        }
+      }
+    }
+    .email {
+      input {
+        border: none;
+        outline: none;
+        padding: 0.6rem 1rem;
+        border-radius: 2rem;
+      }
+      button {
+        border: none;
+        position: relative;
+        padding: 0.6rem 1rem;
+        left: -7%;
+        border-radius: 2rem;
+        font-weight: 500;
+        color: #fff;
+        background-color: #343232;
+        cursor: pointer;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+    }
+    .icons {
+      margin-top: 2rem;
+      i {
+        font-size: 1.2rem;
+        margin-right: 1.4rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
