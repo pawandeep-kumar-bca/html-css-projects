@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding-top: 3rem;
+}
+.container .testo {
+  padding: 2rem;
+  width: 100%;
+  height: 40rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #022548;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .testo .star {
+  padding-top: 5rem;
+}
+.container .testo .star i {
+  font-size: 1.3rem;
+  color: #ffd600;
+}
+.container .testo h1 {
+  padding-top: 1rem;
+  color: #fff;
+  font-size: 2.8rem;
+}
+.container .testo .p {
+  width: 50%;
+  font-size: 1.6rem;
+  color: #fff;
+  opacity: 0.8;
+  margin-top: 4.5rem;
+  text-align: center;
+}
+.container .testo h4 {
+  margin-top: 4rem;
+  color: #fff;
+}
+.container .testo .para {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 0.7rem;
+  opacity: 0.8;
+  font-weight: 100;
+}
+.container .testo .left {
+  position: absolute;
+  top: 48%;
+  cursor: pointer;
+  left: 10%;
+}
+.container .testo .left i {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.container .testo .right {
+  position: absolute;
+  top: 48%;
+  cursor: pointer;
+  right: 10%;
+}
+.container .testo .right i {
+  font-size: 2.5rem;
+  color: #fff;
+}
