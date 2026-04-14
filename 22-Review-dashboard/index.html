@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+  <!-- Sidebar (LEFT) -->
+  <aside class="sidebar">
+    <h2 class="logo">SellerGrid</h2>
+
+    <nav>
+      <a href="#" class="active">📊 Dashboard</a>
+      <a href="#">📝 Reviews</a>
+      <a href="#">📦 Products</a>
+      <a href="#">⚙️ Settings</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content (RIGHT) -->
+  <main class="main">
+
+    <div class="container">
+      <h1>📊 Review Analytics Dashboard</h1>
+
+      <!-- Cards -->
+      <div class="cards">
+        <div class="card">
+          <h2>Total Reviews</h2>
+          <p class="primary">1200</p>
+        </div>
+        <div class="card">
+          <h2>Positive</h2>
+          <p class="positive">900</p>
+        </div>
+        <div class="card">
+          <h2>Negative</h2>
+          <p class="negative">300</p>
+        </div>
+        <div class="card">
+          <h2>Avg Rating</h2>
+          <p>4.2 ⭐</p>
+        </div>
+      </div>
+
+      <!-- Filters -->
+      <div class="filters">
+        <button>All</button>
+        <button>Amazon</button>
+        <button>Flipkart</button>
+        <button>1⭐</button>
+        <button>5⭐</button>
+      </div>
+
+      <!-- Search -->
+      <div class="search">
+        <input type="text" placeholder="Search reviews...">
+      </div>
+
+      <!-- Reviews -->
+      <div class="reviews">
+        <div class="review">
+          <div class="info">
+            <h3>Great product quality</h3>
+            <p>Amazon • 5⭐</p>
+          </div>
+          <span class="badge good">Positive</span>
+        </div>
+
+        <div class="review">
+          <div class="info">
+            <h3>Delivery was late</h3>
+            <p>Flipkart • 2⭐</p>
+          </div>
+          <span class="badge bad">Negative</span>
+        </div>
+
+        <div class="review">
+          <div class="info">
+            <h3>Worth the price</h3>
+            <p>Amazon • 4⭐</p>
+          </div>
+          <span class="badge good">Positive</span>
+        </div>
+
+        <div class="review">
+          <div class="info">
+            <h3>Packaging was damaged</h3>
+            <p>Website • 1⭐</p>
+          </div>
+          <span class="badge bad">Negative</span>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+</div>
+
+</body>
+</html>
